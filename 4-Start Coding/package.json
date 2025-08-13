@@ -1,0 +1,22 @@
+{
+  "name": "2-igniting-app",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "author": "Priyanka Koorkaula",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserList": [
+    "last 2 versions"
+  ]
+}
