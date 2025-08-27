@@ -1,0 +1,79 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px black solid;
+}
+.logo {
+  width: 100px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style: none;
+}
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.res-card:hover {
+  border: 2px solid black;
+  cursor: pointer;
+}
+.res-card {
+  width: 200px;
+  border: 1px solid black;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-img {
+  width: 160px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.card-title {
+  margin: 10px;
+}
+.footer {
+  height: 7px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.shimmer-card {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.login {
+  padding: 10px 20px;
+
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
